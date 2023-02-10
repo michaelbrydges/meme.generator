@@ -1,38 +1,127 @@
-.App {
-  text-align: center;
+/*
+    font-family: 'Inter', sans-serif;
+
+    font-family: 'Karla', sans-serif;
+  */
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+html {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: #E5E5E5;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.main_card {
+  width: 550px;
+  height: auto;
+  background-color: #FFFFFF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 85px;
+  font-family: Karla;
+  background-image: linear-gradient(to right, #672280 , #A326D0);
+  padding: 0px 30px 0px 30px;
+}
+
+.title--container {
+  display: flex;
+  align-items: center;
+}
+
+.face--img {
+  width: 31px;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 20.75px;
+  font-family: 'Karla', sans-serif;
+  color: #FFFFFF;
+}
+
+p {
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+  color: #FFFFFF;
+}
+
+.main--container {
+  padding: 30px;
+}
+
+button {
+  border-radius: 5px;
+  height: 40px;
+  border: none;
+  background-image: linear-gradient(to right, #672280 , #A326D0);
+  color: #FFFFFF;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  width: 100%;
+}
+
+.input--container {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  padding: 10px;
+  width: 213px;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.meme--img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.img--container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 20px;
+}
+
+.img--text {
+  position: absolute;
+  margin: 20px;
+  font-family: Impact, sans-serif;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  font-size: xx-large;
+  text-transform: uppercase;
+  padding: 0 5px;
+  text-shadow: 2px 2px 0 #000,
+              -2px -2px 0 #000,
+               2px -2px 0 #000,
+              -2px 2px 0 #000,
+               0 2px 0 #000,
+               2px 0 0 #000,
+               0 -2px 0 #000,
+              -2px 0 0 #000,
+               2px 2px 5px #000;
+}
+
+.top {
+  bottom: 0;
+}
+
+.bottom {
+  top: 0;
 }
