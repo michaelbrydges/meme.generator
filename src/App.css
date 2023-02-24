@@ -123,7 +123,6 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #E5E5E5;
     min-height: 100vh;
   }
 
@@ -134,23 +133,13 @@ html, body {
   .main_card {
     width: 550px;
     height: auto;
-    background-color: #FFFFFF;
   }
 
   .header--container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     height: 85px;
-    font-family: Karla;
-    background-image: linear-gradient(to right, #672280 , #A326D0);
     padding: 0px 30px 0px 30px;
   }
 
-  .title--container {
-    display: flex;
-    align-items: center;
-  }
 
   .face--img {
     width: 31px;
@@ -159,14 +148,10 @@ html, body {
 
   h1 {
     font-size: 20.75px;
-    font-family: 'Karla', sans-serif;
-    color: #FFFFFF;
   }
 
   p {
     font-size: 12px;
-    font-family: 'Inter', sans-serif;
-    color: #FFFFFF;
   }
 
   .main--container {
@@ -176,11 +161,7 @@ html, body {
   button {
     border-radius: 5px;
     height: 40px;
-    border: none;
     margin-bottom: 0vw;
-    background-image: linear-gradient(to right, #672280 , #A326D0);
-    color: #FFFFFF;
-    font-family: 'Karla', sans-serif;
     font-size: 16px;
     width: 100%;
   }
@@ -193,14 +174,9 @@ html, body {
   input {
     border-radius: 5px;
     font-size: 18px;
-    border: 1px solid #D5D4D8;
     padding: 10px;
     width: 213px;
     margin-bottom: 20px;
-  }
-
-  input:focus {
-    outline: none;
   }
 
   .meme--img {
@@ -209,20 +185,13 @@ html, body {
   }
 
   .img--container {
-    display: flex;
-    justify-content: center;
-    position: relative;
     margin: 20px;
   }
 
   .img--text {
-    position: absolute;
     margin: 20px;
-    font-family: Impact, sans-serif;
     letter-spacing: 1px;
-    color: #FFFFFF;
     font-size: xx-large;
-    text-transform: uppercase;
     padding: 0 5px;
     text-shadow: 2px 2px 0 #000,
                 -2px -2px 0 #000,
@@ -233,13 +202,5 @@ html, body {
                 0 -2px 0 #000,
                 -2px 0 0 #000,
                 2px 2px 5px #000;
-  }
-
-  .top {
-    bottom: 0;
-  }
-
-  .bottom {
-    top: 0;
   }
 }
